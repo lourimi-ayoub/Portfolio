@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import compiler from "../../Assets/Projects/sw.png";
 import portfolio from "../../Assets/Projects/img.png";
 import mood from "../../Assets/Projects/Mental-Health.png";
-import ecommerce from "../../Assets/Projects/TECH.png";
 import weatherapp from "../../Assets/Projects/weatherapp.png";
 import club from "../../Assets/Projects/cll.png";
+import inventoryAppImage from "../../Assets/Projects/dash.png" 
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -29,16 +29,16 @@ function Projects() {
               ghLink="https://github.com/lourimi-ayoub/Agent-m7ar7er"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={[portfolio]}
-              isBlog={false}
-              title="Portfolio"
-              description="Explore my personalized portfolio crafted with React JS, showcasing my projects, skills, and experiences. Engage with dynamic design, seamless navigation, and interactive elements, reflecting my dedication to innovation and creativity in the digital realm."
-              ghLink="https://github.com/lourimi-ayoub/Portfolio"
-              demoLink="https://lourimi-portfolio.vercel.app/"
-            />
-          </Col>
+           <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={inventoryAppImage} 
+            isBlog={false}
+            title="Inventory Management System"
+  description="A modern Inventory Management System that helps you track products, manage stock levels, and maintain an organized warehouse. Features include real-time product status, easy stock adjustments with reasons, product search & filtering, and secure user authentication. Perfect for small to medium businesses looking to streamline inventory management."
+            ghLink="https://github.com/lourimi-ayoub/Mini-Inventory-Management-System" 
+            demoLink="https://github.com/lourimi-ayoub/Mini-Inventory-Management-System" 
+          />
+        </Col>
 
            <Col md={4} className="project-card">
             <ProjectCard
@@ -51,6 +51,19 @@ function Projects() {
                             
             />
           </Col>
+
+         
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={[portfolio]}
+              isBlog={false}
+              title="Portfolio"
+              description="Explore my personalized portfolio crafted with React JS, showcasing my projects, skills, and experiences. Engage with dynamic design, seamless navigation, and interactive elements, reflecting my dedication to innovation and creativity in the digital realm."
+              ghLink="https://github.com/lourimi-ayoub/Portfolio"
+              demoLink="https://lourimi-portfolio.vercel.app/"
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -74,16 +87,7 @@ function Projects() {
               demoLink="https://lourimi-ayoub.github.io/club-website/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ecommerce}
-              isBlog={false}
-              title="Ecommerce Website"
-              description="Tech Haven is a cutting-edge PC hardware e-commerce platform featuring responsive design, secure checkout, and user accounts. Its intuitive interface includes product listings with filters, shopping cart, and admin dashboard for inventory management. Designed for the Tunisian market, it delivers a fast, device-friendly shopping experience with dark/light mode for gamers and PC builders"
-              ghLink="https://github.com/lourimi-ayoub/Prodigy-InfoTech/tree/main/LandingPage"
-            />
-          </Col>
-
+          
          
 
 
