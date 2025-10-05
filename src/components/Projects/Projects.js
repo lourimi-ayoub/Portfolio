@@ -7,7 +7,7 @@ import portfolio from "../../Assets/Projects/img.png";
 import mood from "../../Assets/Projects/Mental-Health.png";
 import weatherapp from "../../Assets/Projects/weatherapp.png";
 import club from "../../Assets/Projects/cll.png";
-import inventoryAppImage from "../../Assets/Projects/dash.png" 
+import inventoryAppImage from "../../Assets/Projects/dash.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -29,18 +29,18 @@ function Projects() {
               ghLink="https://github.com/lourimi-ayoub/Agent-m7ar7er"
             />
           </Col>
-           <Col md={4} className="project-card">
-          <ProjectCard
-            imgPath={inventoryAppImage} 
-            isBlog={false}
-            title="Inventory Management System"
-  description="A modern Inventory Management System that helps you track products, manage stock levels, and maintain an organized warehouse. Features include real-time product status, easy stock adjustments with reasons, product search & filtering, and secure user authentication. Perfect for small to medium businesses looking to streamline inventory management."
-            ghLink="https://github.com/lourimi-ayoub/Mini-Inventory-Management-System" 
-            demoLink="https://github.com/lourimi-ayoub/Mini-Inventory-Management-System" 
-          />
-        </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={inventoryAppImage}
+              isBlog={false}
+              title="Inventory Management System"
+              description="A modern Inventory Management System that helps you track products, manage stock levels, and maintain an organized warehouse. Features include real-time product status, easy stock adjustments with reasons, product search & filtering, and secure user authentication. Perfect for small to medium businesses looking to streamline inventory management."
+              ghLink="https://github.com/lourimi-ayoub/Inventory-Management-System"
+              demoLink="https://inventory-management-mini.vercel.app"
+            />
+          </Col>
 
-           <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={compiler}
               isBlog={false}
@@ -48,12 +48,10 @@ function Projects() {
               description="Sweet Yokna is a modern and user-friendly online pastry shop template designed for selling cakes, cookies, and homemade sweets. Built with HTML, CSS, JavaScript, PHP, and MySQL, it offers a smooth browsing and ordering experience, perfect for small bakery businesses or individuals looking to launch their own sweet shop online."
               ghLink="https://github.com/lourimi-ayoub/sweet-yokna"
               demoLink="https://sweet.x10.mx/"
-                            
             />
           </Col>
 
-         
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={[portfolio]}
               isBlog={false}
@@ -63,7 +61,6 @@ function Projects() {
               demoLink="https://lourimi-portfolio.vercel.app/"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -76,7 +73,6 @@ function Projects() {
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={[club]}
@@ -87,13 +83,6 @@ function Projects() {
               demoLink="https://lourimi-ayoub.github.io/club-website/"
             />
           </Col>
-          
-         
-
-
-          
-
-          
         </Row>
       </Container>
     </Container>
